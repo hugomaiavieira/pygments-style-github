@@ -22,6 +22,8 @@ Manual
 Usage example
 =============
 
+::
+
     >>> from pygments.formatters import HtmlFormatter
     >>> HtmlFormatter(style='github').style
     <class 'pygments_style_github.GithubStyle'>
