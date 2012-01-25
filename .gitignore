@@ -1,0 +1,4 @@
+pygments_style_github.egg-info/
+build/
+dist/
+*.pyc
