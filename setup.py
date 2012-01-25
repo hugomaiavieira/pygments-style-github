@@ -4,8 +4,9 @@ from setuptools import setup
 
 setup(
     name = 'pygments-style-github',
-    version = '0.2',
+    version = '0.3',
     description = 'Pygments version of the github theme.',
+    long_description = open('README.rst').read(),
     license = 'BSD',
 
     author = 'Hugo Maia Vieira',
