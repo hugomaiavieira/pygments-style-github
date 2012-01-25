@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name = 'pygments-style-github',
-    version = '0.1',
+    version = '0.2',
     description = 'Pygments version of the github theme.',
     license = 'BSD',
 
