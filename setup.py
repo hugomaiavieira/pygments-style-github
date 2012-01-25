@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='pygments-style-github',
-    version='0.3',
+    version='0.4',
     description='Pygments version of the github theme.',
     long_description=open('README.rst').read(),
     keywords='pygments style github',
@@ -15,7 +15,7 @@ setup(
 
     url='https://github.com/hugomaiavieira/pygments-style-github',
 
-    packages=['pygments_style_github'],
+    packages=find_packages(),
     install_requires=['pygments >= 1.4'],
 
     entry_points='''[pygments.styles]
